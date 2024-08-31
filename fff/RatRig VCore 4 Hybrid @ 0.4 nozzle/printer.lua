@@ -251,7 +251,7 @@ function header()
     output('M82 ; extrusion absolute mode')
   end
 
-  output('SET_PRESSURE_ADVANCE ADVANCE=' .. f(filament_pressure_advance_0))
+  output('SET_PRESSURE_ADVANCE ADVANCE=' .. f(filament_pressure_advance))
 
   output_debug('')
   
