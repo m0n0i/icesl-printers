@@ -9,7 +9,7 @@ flow_multiplier = 0.93
 shell_flow_multiplier = 1
 support_flow_multiplier = 1
 
-filament_pressure_advance_0 = 0.025
+filament_pressure_advance = 0.025
 
 -- The speed depends on the flow multiplier. We correct the speed multiplier so that the speeds displayed by the ui are effective printing speeds.
 speed_multiplier = flow_multiplier^path_width_speed_adjustment_exponent
