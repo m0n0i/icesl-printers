@@ -60,8 +60,8 @@ chamber_temp_degree_c = 45
 
 filament_priming_mm_0 = 1.2
 priming_extra_length_mm_0 = 0
-priming_mm_per_sec_0 = 60
-retract_mm_per_sec_0 = 60
+priming_mm_per_sec_0 = 120
+retract_mm_per_sec_0 = 120
 travel_max_length_without_retract = 20
 travel_no_retract_below_length = 0
 

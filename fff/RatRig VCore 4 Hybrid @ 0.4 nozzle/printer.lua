@@ -308,7 +308,7 @@ end
 -- called before extruding
 function extruder_start()
   output_debug('')
-  output_debug('*** extruder_start()')  
+  output_debug('*** extruder_start()')
 end
 
 -- called after extruding

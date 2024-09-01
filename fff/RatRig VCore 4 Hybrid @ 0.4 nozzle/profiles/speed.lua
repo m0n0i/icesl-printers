@@ -32,7 +32,7 @@ infill_scv = 15 -- mm/s
 
 num_shells = 1
 use_different_thickness_first_layer = true
-z_layer_height_first_layer_mm = 0.3
+z_layer_height_first_layer_mm = 0.25
 cover_thickness_mm = 0.75
 infill_percentage = 10
 print_perimeter = true

@@ -6,7 +6,7 @@ z_layer_height_mm = 0.25
 
 print_speed_mm_per_sec = 400
 perimeter_print_speed_mm_per_sec = 300
-cover_print_speed_mm_per_sec = 300
+cover_print_speed_mm_per_sec = 400
 first_layer_print_speed_mm_per_sec = 100
 support_print_speed_mm_per_sec = 100
 travel_speed_mm_per_sec = 800
@@ -32,7 +32,7 @@ infill_scv = 12 -- mm/s
 
 num_shells = 2
 use_different_thickness_first_layer = true
-z_layer_height_first_layer_mm = 0.3
+z_layer_height_first_layer_mm = 0.25
 cover_thickness_mm = 1.0
 infill_percentage = 20
 print_perimeter = true

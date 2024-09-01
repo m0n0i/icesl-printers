@@ -2,10 +2,10 @@ name_en = "FormFutura TitanX ABS"
 name_fr = "FormFutura TitanX ABS"
 name_es = "FormFutura TitanX ABS"
 
-filament_density = 1.04 -- g/cm3 PLA
+filament_density = 1.04 -- g/cm3
 max_volumetric_speed = 30 -- mm³/s
 
-flow_multiplier = 0.93
+flow_multiplier = 0.935
 shell_flow_multiplier = 1
 support_flow_multiplier = 1
 

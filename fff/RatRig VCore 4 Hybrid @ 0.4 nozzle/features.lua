@@ -130,7 +130,7 @@ infill_scv = 12 -- mm/s, scv : square corner velocity
 -- Misc default settings -------------------------------------------------------
 
 add_brim = true
-brim_distance_to_print_mm = 2.0
+brim_distance_to_print_mm = 10
 brim_num_contours = 4
 
 enable_z_lift = true
@@ -138,8 +138,6 @@ z_lift_mm = 0.4
 z_lift_speed_mm_per_sec = 50
 
 enable_travel_straight = true
-
-gen_inner_supports = true
 
 export_gcode_thumbnails = true
 

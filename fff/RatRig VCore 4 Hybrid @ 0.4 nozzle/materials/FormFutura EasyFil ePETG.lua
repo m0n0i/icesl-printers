@@ -2,10 +2,10 @@ name_en = "FormFutura EasyFil ePETG"
 name_fr = "FormFutura EasyFil ePETG"
 name_es = "FormFutura EasyFil ePETG"
 
-filament_density = 1.27 -- g/cm3 PLA
-max_volumetric_speed = 30.0 -- mm³/s
+filament_density = 1.27 -- g/cm3
+max_volumetric_speed = 24.0 -- mm³/s
 
-flow_multiplier = 0.93
+flow_multiplier = 0.935
 shell_flow_multiplier = 1
 support_flow_multiplier = 1
 
@@ -56,15 +56,15 @@ if top_cover_override_print_speed_mm_per_sec_max > print_speed_mm_per_sec_limit 
   top_cover_override_print_speed_mm_per_sec_max = print_speed_mm_per_sec_limit
 end
 
-extruder_temp_degree_c_0 = 230
+extruder_temp_degree_c_0 = 235
 bed_temp_degree_c = 80
 
-filament_priming_mm_0 = 0.8
+filament_priming_mm_0 = 2
 priming_extra_length_mm_0 = 0
 priming_mm_per_sec_0 = 120
 retract_mm_per_sec_0 = 120
 travel_max_length_without_retract = 20
-travel_no_retract_below_length = 0
+travel_no_retract_below_length = 1
 
 enable_z_lift = false
 
