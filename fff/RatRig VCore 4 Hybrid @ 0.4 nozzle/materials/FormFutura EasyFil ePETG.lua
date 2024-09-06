@@ -3,13 +3,13 @@ name_fr = "FormFutura EasyFil ePETG"
 name_es = "FormFutura EasyFil ePETG"
 
 filament_density = 1.27 -- g/cm3
-max_volumetric_speed = 24.0 -- mm³/s
+max_volumetric_speed = 26.0 -- mm³/s
 
-flow_multiplier = 0.935
+flow_multiplier = 0.932
 shell_flow_multiplier = 1
 support_flow_multiplier = 1
 
-filament_pressure_advance = 0.026
+filament_pressure_advance = 0.042
 
 infill_limit_print_speed_mm_per_sec = 200
 
@@ -59,14 +59,14 @@ end
 extruder_temp_degree_c_0 = 235
 bed_temp_degree_c = 80
 
-filament_priming_mm_0 = 2
+filament_priming_mm_0 = 3
 priming_extra_length_mm_0 = 0
 priming_mm_per_sec_0 = 120
 retract_mm_per_sec_0 = 120
 travel_max_length_without_retract = 20
 travel_no_retract_below_length = 1
 
-enable_z_lift = false
+enable_z_lift = true
 
 enable_fan = true
 fan_speed_percent = 40 -- from 20% to 50%
