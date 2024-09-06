@@ -134,7 +134,7 @@ brim_distance_to_print_mm = 10
 brim_num_contours = 4
 
 enable_z_lift = true
-z_lift_mm = 0.4
+z_lift_mm = 0.2
 z_lift_speed_mm_per_sec = 50
 
 enable_travel_straight = true
