@@ -3,15 +3,15 @@ name_fr = "Rosa3D silk PLA"
 name_es = "Rosa3D silk PLA"
 
 filament_density = 1.27 -- g/cm3
-max_volumetric_speed = 26.0 -- mm³/s
+max_volumetric_speed = 30.0 -- mm³/s
 
-flow_multiplier = 0.932
+flow_multiplier = 0.93
 shell_flow_multiplier = 1
 support_flow_multiplier = 1
 
-filament_pressure_advance = 0.018
+filament_pressure_advance = 0.024
 
-infill_limit_print_speed_mm_per_sec = 250
+infill_limit_print_speed_mm_per_sec = 0
 
 -- The speed depends on the flow multiplier. We correct the speed multiplier so that the speeds displayed by the ui are effective printing speeds.
 speed_multiplier = flow_multiplier^path_width_speed_adjustment_exponent
@@ -56,7 +56,7 @@ if top_cover_override_print_speed_mm_per_sec_max > print_speed_mm_per_sec_limit 
   top_cover_override_print_speed_mm_per_sec_max = print_speed_mm_per_sec_limit
 end
 
-extruder_temp_degree_c_0 = 215
+extruder_temp_degree_c_0 = 220
 bed_temp_degree_c = 60
 
 filament_priming_mm_0 = 1.8
@@ -65,8 +65,6 @@ priming_mm_per_sec_0 = 120
 retract_mm_per_sec_0 = 120
 travel_max_length_without_retract = 20
 travel_no_retract_below_length = 1
-
-enable_z_lift = true
 
 enable_fan = true
 fan_speed_percent = 50

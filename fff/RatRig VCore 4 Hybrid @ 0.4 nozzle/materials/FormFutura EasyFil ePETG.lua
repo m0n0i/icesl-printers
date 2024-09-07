@@ -11,7 +11,7 @@ support_flow_multiplier = 1
 
 filament_pressure_advance = 0.042
 
-infill_limit_print_speed_mm_per_sec = 200
+infill_limit_print_speed_mm_per_sec = 150 -- for infill crossing itself
 
 -- The speed depends on the flow multiplier. We correct the speed multiplier so that the speeds displayed by the ui are effective printing speeds.
 speed_multiplier = flow_multiplier^path_width_speed_adjustment_exponent
@@ -65,8 +65,6 @@ priming_mm_per_sec_0 = 120
 retract_mm_per_sec_0 = 120
 travel_max_length_without_retract = 20
 travel_no_retract_below_length = 1
-
-enable_z_lift = true
 
 enable_fan = true
 fan_speed_percent = 40 -- from 20% to 50%

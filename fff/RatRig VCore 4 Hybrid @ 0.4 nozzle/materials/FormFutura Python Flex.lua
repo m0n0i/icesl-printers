@@ -5,11 +5,13 @@ name_es = "FormFutura Python Flex"
 filament_density = 1.22 -- g/cm3 PLA
 max_volumetric_speed = 15.0 -- mm³/s
 
-flow_multiplier = 0.96
+flow_multiplier = 0.98
 shell_flow_multiplier = 1
 support_flow_multiplier = 1
 
 filament_pressure_advance = 0
+
+infill_limit_print_speed_mm_per_sec = 0
 
 -- The speed depends on the flow multiplier. We correct the speed multiplier so that the speeds displayed by the ui are effective printing speeds.
 speed_multiplier = flow_multiplier^path_width_speed_adjustment_exponent
@@ -57,7 +59,7 @@ end
 extruder_temp_degree_c_0 = 225
 bed_temp_degree_c = 60
 
-filament_priming_mm_0 = 0.8
+filament_priming_mm_0 = 2
 priming_extra_length_mm_0 = 0
 priming_mm_per_sec_0 = 120
 retract_mm_per_sec_0 = 120

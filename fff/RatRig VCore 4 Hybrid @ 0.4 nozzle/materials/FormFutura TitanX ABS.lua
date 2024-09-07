@@ -5,11 +5,13 @@ name_es = "FormFutura TitanX ABS"
 filament_density = 1.04 -- g/cm3
 max_volumetric_speed = 30 -- mm³/s
 
-flow_multiplier = 0.935
+flow_multiplier = 0.93
 shell_flow_multiplier = 1
 support_flow_multiplier = 1
 
-filament_pressure_advance = 0.04
+filament_pressure_advance = 0.025
+
+infill_limit_print_speed_mm_per_sec = 0
 
 -- The speed depends on the flow multiplier. We correct the speed multiplier so that the speeds displayed by the ui are effective printing speeds.
 speed_multiplier = flow_multiplier^path_width_speed_adjustment_exponent
@@ -58,10 +60,10 @@ extruder_temp_degree_c_0 = 245
 bed_temp_degree_c = 80
 chamber_temp_degree_c = 45
 
-filament_priming_mm_0 = 0.8
+filament_priming_mm_0 = 1.2
 priming_extra_length_mm_0 = 0
-priming_mm_per_sec_0 = 60
-retract_mm_per_sec_0 = 60
+priming_mm_per_sec_0 = 120
+retract_mm_per_sec_0 = 120
 travel_max_length_without_retract = 20
 travel_no_retract_below_length = 0
 
