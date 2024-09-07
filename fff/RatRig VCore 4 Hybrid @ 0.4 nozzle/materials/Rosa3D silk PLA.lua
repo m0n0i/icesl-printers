@@ -3,13 +3,13 @@ name_fr = "Rosa3D silk PLA"
 name_es = "Rosa3D silk PLA"
 
 filament_density = 1.27 -- g/cm3
-max_volumetric_speed = 28.0 -- mm³/s
+max_volumetric_speed = 26.0 -- mm³/s
 
 flow_multiplier = 0.932
 shell_flow_multiplier = 1
 support_flow_multiplier = 1
 
-filament_pressure_advance = 0.034
+filament_pressure_advance = 0.018
 
 infill_limit_print_speed_mm_per_sec = 250
 
@@ -56,10 +56,10 @@ if top_cover_override_print_speed_mm_per_sec_max > print_speed_mm_per_sec_limit 
   top_cover_override_print_speed_mm_per_sec_max = print_speed_mm_per_sec_limit
 end
 
-extruder_temp_degree_c_0 = 220
+extruder_temp_degree_c_0 = 215
 bed_temp_degree_c = 60
 
-filament_priming_mm_0 = 1
+filament_priming_mm_0 = 1.8
 priming_extra_length_mm_0 = 0
 priming_mm_per_sec_0 = 120
 retract_mm_per_sec_0 = 120
@@ -69,8 +69,8 @@ travel_no_retract_below_length = 1
 enable_z_lift = true
 
 enable_fan = true
-fan_speed_percent = 40 -- from 20% to 50%
-fan_speed_percent_on_bridges = 60
+fan_speed_percent = 50
+fan_speed_percent_on_bridges = 70
 
 enable_min_layer_time = false
 min_layer_time_method = 'Tower'
